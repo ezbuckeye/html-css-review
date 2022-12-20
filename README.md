@@ -23,9 +23,16 @@ This repo contains my study notes and learning projects contained in the course 
 
 * *styling text*
   * font-size: 26px;
+  * font-weight: bold;
   * font-family: sans-serif;
-  * *font-style: italic;
+  * font-style: italic;
   * text-align: center;
   * text-transform: uppercase;
   * line-height: 1.5; (1.5 times font size)
+
+* selector
+  * descendant selector `article header p {}`
+  * list selector `h1, h2, h3, h4, p, li{}`
+  * id selector `#author {}`
+  * class selector `.related {}`
 
