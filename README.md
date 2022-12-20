@@ -40,3 +40,8 @@ This repo contains my study notes and learning projects contained in the course 
   * text color => `color: #1098ad;`
   * background color of containers => `background-color: #f7f7f7;`
   * border color => `border(-top/left/right/bottom): 5px solid #1098ad;`
+
+* **pseudo-classes**
+  * `li:first-child {}`
+  * `li:nth-child(odd) {}`
+  * `article p:last-child {}` iff there is a `<p>` element as the last child of any `<article>` element.
