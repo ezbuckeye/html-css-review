@@ -45,3 +45,8 @@ This repo contains my study notes and learning projects contained in the course 
   * `li:first-child {}`
   * `li:nth-child(odd) {}`
   * `article p:last-child {}` iff there is a `<p>` element as the last child of any `<article>` element.
+  * **styling hyperlinks**
+    * `a:link {}` (could use `text-decoration:none` to get rid of the default underline, we could also specify our own style, e.g., `text-decoration: underline wavy orangered`)
+    * `a:visited {}`
+    * `a:hover {}`
+    * `a:active {}`
