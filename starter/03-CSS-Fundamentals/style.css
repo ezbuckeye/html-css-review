@@ -1,13 +1,20 @@
-h1, h2, h3, h4, p, li{
+h1,
+h2,
+h3,
+h4,
+p,
+li {
   font-family: sans-serif;
   color: #444;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   color: #1098ad;
 }
 
-h1{
+h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
@@ -17,11 +24,11 @@ h2 {
   font-size: 40px;
 }
 
-h3{
+h3 {
   font-size: 30px;
 }
 
-h4{
+h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -49,7 +56,7 @@ li {
 } */
 
 #author {
-  font-style:italic;
+  font-style: italic;
   font-size: 18px;
 }
 
@@ -109,3 +116,24 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+/* Resolving conflicts */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+}
+
+a {
+  color: red;
+} */
