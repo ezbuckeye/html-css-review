@@ -58,3 +58,6 @@ This repo contains my study notes and learning projects contained in the course 
 - **CSS Theory1: conlicting selectors**
   - declarations marked `!important` > inline styles > ID selector > class/psudeo-class selector > element selector > universal selector
   - if there are multiple conflicts of the same level, the last selector in code will apply
+- **CSS Theory2: Inheritance and the Universal Selector**
+  - The children html elements would inherit the styles of their parents elements. (not all the styles would be inherited, it's mostly ones related to text)
+  - universal selector applies the specified styles(including those that couldn't be inherited) to all elements, which doesn't use the mechanism of inheritance.
