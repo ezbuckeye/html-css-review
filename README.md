@@ -4,8 +4,6 @@ This repo contains my study notes and learning projects contained in the course 
 
 ## HTML Notes
 
-#### Dec 18 2022
-
 - `<strong>` and ~~`<b>`~~ are both used to make texts bold. However, `<strong>` label is more recommended since it has its semantics.
 
 - `<em>` and ~~`<i>`~~ are both used to make texts italics. However, `<em>` label, which stands for emphasize, is more recommended.
@@ -17,8 +15,6 @@ This repo contains my study notes and learning projects contained in the course 
 - useful VScode extension: auto rename tag(automatically change the closing tags when the openning tags were changed), prettier(formatter), color hightlight(for css), image preview(`<img>`), live server
 
 ## CSS Notes
-
-#### Dec 19 2022
 
 - **styling text**
 
@@ -44,6 +40,7 @@ This repo contains my study notes and learning projects contained in the course 
   - border color => `border(-top/left/right/bottom): 5px solid #1098ad;`
 
 - **pseudo-classes**
+
   - `li:first-child {}`
   - `li:nth-child(odd) {}`
   - `article p:last-child {}` iff there is a `<p>` element as the last child of any `<article>` element.
@@ -53,11 +50,18 @@ This repo contains my study notes and learning projects contained in the course 
     - `a:hover {}`
     - `a:active {}`
 
-#### Dec 21 2022
-
 - **CSS Theory1: conlicting selectors**
   - declarations marked `!important` > inline styles > ID selector > class/psudeo-class selector > element selector > universal selector
   - if there are multiple conflicts of the same level, the last selector in code will apply
 - **CSS Theory2: Inheritance and the Universal Selector**
   - The children html elements would inherit the styles of their parents elements. (not all the styles would be inherited, it's mostly ones related to text)
   - universal selector applies the specified styles(including those that couldn't be inherited) to all elements, which doesn't use the mechanism of inheritance.
+- **CSS Theory3: The CSS Box Model**
+  - _global reset_
+    `* {
+  margin: 0;
+  padding: 0;
+}`
+  - _collapsing margins_: the bigger margin between elements would be applied if both margins are specified
+  - consistent with using margin-top/margin-bottom when trying to add vertical space between elements
+  - `padding: 10px 20px` => the vertical paddings are 10 px and the horizontal paddings are 20px
