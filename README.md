@@ -32,6 +32,7 @@ This repo contains my study notes and learning projects contained in the course 
   - list selector `h1, h2, h3, h4, p, li{}`
   - id selector `#author {}`
   - class selector `.related {}`
+  - adjacent sibling selector `h3 + p {}`
 
 - **color**
 
@@ -49,6 +50,12 @@ This repo contains my study notes and learning projects contained in the course 
     - `a:visited {}`
     - `a:hover {}`
     - `a:active {}`
+
+- **psuedo-elements**
+
+  - first letter: `h1::first-letter {}`
+  - first line: `h3 + p::first-line {}`
+  - create an element as the first(`before`)/last(`after`) child of the selected element`h2::after {content: "TOP";}`
 
 - **CSS Theory1: conlicting selectors**
   - declarations marked `!important` > inline styles > ID selector > class/psudeo-class selector > element selector > universal selector
