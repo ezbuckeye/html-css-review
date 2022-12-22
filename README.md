@@ -57,11 +57,14 @@ This repo contains my study notes and learning projects contained in the course 
   - The children html elements would inherit the styles of their parents elements. (not all the styles would be inherited, it's mostly ones related to text)
   - universal selector applies the specified styles(including those that couldn't be inherited) to all elements, which doesn't use the mechanism of inheritance.
 - **CSS Theory3: The CSS Box Model**
-  - _global reset_
+  - global reset:
     `* {
   margin: 0;
   padding: 0;
 }`
-  - _collapsing margins_: the bigger margin between elements would be applied if both margins are specified
+  - collapsing margins: the bigger margin between elements would be applied if both margins are specified
   - consistent with using margin-top/margin-bottom when trying to add vertical space between elements
   - `padding: 10px 20px` => the vertical paddings are 10 px and the horizontal paddings are 20px
+  - a trick to center the content
+    - add a div container around the content that we want to center
+    - `.container{margin: 0 auto;}`
