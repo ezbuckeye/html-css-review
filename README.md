@@ -69,14 +69,18 @@ This repo contains my study notes and learning projects contained in the course 
     - add a div container around the content that we want to center
     - `.container{margin: 0 auto;}`
 - **CSS Theory4: Types of Boxes**
-  - BLOCK-LEVEL elements
+  - BLOCK-LEVEL elements (`display: block;`)
     - 100% of parent's width => vertically, one after another
     - box-model could be applied
-  - INLINE elements
+  - INLINE elements (`display: inline;`)
     - occupies only content's space => causes no line breaks
     - box-model is differently applied
       - hieghts and widths do not apply
       - paddings and margins only apply horizontally
-  - INLINE-BLOCK elements
+  - INLINE-BLOCK elements (`display: inline-block;`)
     - Looks like inline from the outside(occupies only content's space)
     - Behaves like block-level on the inside(box-model applies as showed)
+- **CSS Theory5: Absolute Positioning**
+  - normal flow: elements are laid out according to their order in the HTML code
+  - absolute positioning: no impact on surrounding elements, might overlap them
+  - the way to use: Add `position: absolute;` for the element and set its top/bottom/left/right (e.g., `top: 5px;`). The element would be put based on these attributes relatively to its closest parent element with `position: relative` specified.
