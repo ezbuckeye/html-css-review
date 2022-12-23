@@ -8,7 +8,7 @@ This repo contains my study notes and learning projects contained in the course 
 
 - `<em>` and ~~`<i>`~~ are both used to make texts italics. However, `<em>` label, which stands for emphasize, is more recommended.
 
-- We could add target="\_blank" as an attribute-value pair inside the `<a>` label so that the link would be opened in new tab.
+- We could add `target="\_blank"` as an attribute-value pair inside the `<a>` label so that the link would be opened in new tab.
 
 - `<header>`(header of the html doc/smaller units), `<nav>`(for navigation links), `<article>`, `<footer>`(e.g., copyright), `<aside>`(for secondary info) are container labels for structuring html documents. They would be helpful for semantics HTML as well as CSS styling.
 
@@ -55,7 +55,7 @@ This repo contains my study notes and learning projects contained in the course 
 
   - first letter: `h1::first-letter {}`
   - first line: `h3 + p::first-line {}`
-  - create an element as the first(`before`)/last(`after`) child of the selected element`h2::after {content: "TOP";}`
+  - create an element(inline) as the first(`before`)/last(`after`) child of the selected element`h2::after {content: "TOP";}`
 
 - **CSS Theory1: conlicting selectors**
   - declarations marked `!important` > inline styles > ID selector > class/psudeo-class selector > element selector > universal selector
