@@ -65,11 +65,7 @@ This repo contains my study notes and learning projects contained in the course 
   - universal selector applies the specified styles(including those that couldn't be inherited) to all elements, which doesn't use the mechanism of inheritance.
 - **CSS Theory3: The CSS Box Model**
   - global reset:  
-     `* {  
-&nbsp;&nbsp;margin: 0;  
-&nbsp;&nbsp;padding: 0;  
-&nbsp;&nbsp;box-sizing: border-box; /* the default is content-box */  
-}`
+     `* {margin: 0; padding: 0; box-sizing: border-box; /* the default is content-box */}`
   - collapsing margins: the bigger margin between elements would be applied if both margins are specified
   - consistent with using margin-top/margin-bottom when trying to add vertical space between elements
   - `padding: 10px 20px` => the vertical paddings are 10 px and the horizontal paddings are 20px
