@@ -108,6 +108,19 @@ This repo contains my study notes and learning projects contained in the course 
   - `display: flex;`
   - terminology:  
     ![terms](image/flexbox.png)
-  - `justify-content: center;` `justify-content: space-bewtween;`
-  - `align-items: center;` `align-items: flex-start;` `align-items: flex-end;` `align-items: stretch`(default)
+  - properties for
+    - flex container
+      - `gap: 0;` | `<length>`  
+        To create space between items, without using margin
+      - `justify-content: flex-start;` | `flex-end` | `center` | `space-between` | `space-around` | `space-evenly`  
+        To align items along main axis (horizontally)
+      - `align-items: stretch;` | `flex-start` | `flex-end` | `center` | `baseline`  
+        To align items along cross axis (vertically)
+      - `flex-direction: row;` | `row-reverse` | `column` | `column-reverse`  
+        To define which is the main axis
+      - `flex-wrap: nowrap;` | `wrap` | `wrap-reverse`  
+        To allow items to wrap into a new line if they are too large
+      - `align-content: strech;` | `flex-start` | `flex-end` | `center` | `space-between` | `space-around`
+        Only applies when there are multiple lines(`flex-wrap: wrap;`)
+    - flex items
 - **Grid**
