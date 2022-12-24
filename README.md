@@ -128,10 +128,10 @@ This repo contains my study notes and learning projects contained in the course 
       - `flex-grow: 0;` | `<integer>`  
         To allow an element to grow(0 means no, 1+ means yes)
       - `flex-shrink: 1;` | `<integer>`  
-        To allow an element to shrink(0 means no, 1+ means yes)
+        To allow an element to shrink when the container is not big enough(0 means no, 1+ means yes)
       - `flex-basis: auto;` | `<length>`  
         To define an item's width, instead of the width property
-      - `flex: 0 1 auto;` | `<int> <int> <len>`  
+      - 🦍`flex: 0 1 auto;` | `<int> <int> <len>`  
         **Recommended** shorthand for flex-grow, -shrink, -basis
       - 🦍`order: 0` | `integer`  
         Controls order of items. -1 makes item first, 1 makes it last.
