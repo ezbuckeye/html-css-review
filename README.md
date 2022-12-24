@@ -120,7 +120,19 @@ This repo contains my study notes and learning projects contained in the course 
         To define which is the main axis
       - `flex-wrap: nowrap;` | `wrap` | `wrap-reverse`  
         To allow items to wrap into a new line if they are too large
-      - `align-content: strech;` | `flex-start` | `flex-end` | `center` | `space-between` | `space-around`
+      - `align-content: strech;` | `flex-start` | `flex-end` | `center` | `space-between` | `space-around`  
         Only applies when there are multiple lines(`flex-wrap: wrap;`)
     - flex items
+      - `align-self: auto;` | `stretch` | `flex-start` | `flex-end` | `center` | `baseline`  
+        To overwrite align-items for individual flex items
+      - `flex-grow: 0;` | `<integer>`  
+        To allow an element to grow(0 means no, 1+ means yes)
+      - `flex-shrink: 1;` | `<integer>`  
+        To allow an element to shrink(0 means no, 1+ means yes)
+      - `flex-basis: auto;` | `<length>`  
+        To define an item's width, instead of the width property
+      - `flex: 0 1 auto;` | `<int> <int> <len>`  
+        **Recommended** shorthand for flex-grow, -shrink, -basis
+      - `order: 0` | `integer`  
+        Controls order of items. -1 makes item first, 1 makes it last.
 - **Grid**
