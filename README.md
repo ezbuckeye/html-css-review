@@ -64,10 +64,11 @@ This repo contains my study notes and learning projects contained in the course 
   - The children html elements would inherit the styles of their parents elements. (not all the styles would be inherited, it's mostly ones related to text)
   - universal selector applies the specified styles(including those that couldn't be inherited) to all elements, which doesn't use the mechanism of inheritance.
 - **CSS Theory3: The CSS Box Model**
-  - global reset:
-    `* {
-  margin: 0;
-  padding: 0;
+  - global reset:  
+    `* {  
+  margin: 0;  
+  padding: 0;  
+  box-sizing: border-box; /* the default is content-box */  
 }`
   - collapsing margins: the bigger margin between elements would be applied if both margins are specified
   - consistent with using margin-top/margin-bottom when trying to add vertical space between elements
@@ -98,8 +99,8 @@ This repo contains my study notes and learning projects contained in the course 
   - `float: left;` `float: right;`
   - element is removed from the normal flow
   - text and inline elements will wrap around the floated element
-  - the container will not adjust its height to the element
-    collapsing height
+  - the container will not adjust its height to the element  
+    => collapsing height
     - clearfix hack  
       `.clearfix::after{content: ""; display: "block"; clear: both;}`  
       Clearfix only works when the selected element is a block element.  
