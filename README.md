@@ -102,7 +102,7 @@ This repo contains my study notes and learning projects contained in the course 
       Clearfix only works when the selected element is a block element.  
       `after` pseudo-element only works when the content has been specified.
     - alternative way  
-      Add an empty block element as one of the children elements(e.g., `<div class="clear"></div>`).  
+      Add an empty block element as the next sibling element(e.g., `<div class="clear"></div>`).  
       And then do `.clear {clear: both;}` in the corresponding CSS file.
 - **Flexbox**
 - **Grid**
