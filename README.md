@@ -105,4 +105,9 @@ This repo contains my study notes and learning projects contained in the course 
       Add an empty block element as the next sibling element(e.g., `<div class="clear"></div>`).  
       And then do `.clear {clear: both;}` in the corresponding CSS file.
 - **Flexbox**
+  - `display: flex;`
+  - terminology:  
+    ![terms](image/flexbox.png)
+  - `justify-content: center;` `justify-content: space-bewtween;`
+  - `align-items: center;` `align-items: flex-start;` `align-items: flex-end;` `align-items: stretch`(default)
 - **Grid**
