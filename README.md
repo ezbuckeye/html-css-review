@@ -110,11 +110,11 @@ This repo contains my study notes and learning projects contained in the course 
     ![terms](image/flexbox.png)
   - properties for
     - flex container
-      - `gap: 0;` | `<length>`  
+      - 🦍`gap: 0;` | `<length>`  
         To create space between items, without using margin
-      - `justify-content: flex-start;` | `flex-end` | `center` | `space-between` | `space-around` | `space-evenly`  
+      - 🦍`justify-content: flex-start;` | `flex-end` | `center` | `space-between` | `space-around` | `space-evenly`  
         To align items along main axis (horizontally)
-      - `align-items: stretch;` | `flex-start` | `flex-end` | `center` | `baseline`  
+      - 🦍`align-items: stretch;` | `flex-start` | `flex-end` | `center` | `baseline`  
         To align items along cross axis (vertically)
       - `flex-direction: row;` | `row-reverse` | `column` | `column-reverse`  
         To define which is the main axis
@@ -123,7 +123,7 @@ This repo contains my study notes and learning projects contained in the course 
       - `align-content: strech;` | `flex-start` | `flex-end` | `center` | `space-between` | `space-around`  
         Only applies when there are multiple lines(`flex-wrap: wrap;`)
     - flex items
-      - `align-self: auto;` | `stretch` | `flex-start` | `flex-end` | `center` | `baseline`  
+      - 🦍`align-self: auto;` | `stretch` | `flex-start` | `flex-end` | `center` | `baseline`  
         To overwrite align-items for individual flex items
       - `flex-grow: 0;` | `<integer>`  
         To allow an element to grow(0 means no, 1+ means yes)
@@ -133,6 +133,6 @@ This repo contains my study notes and learning projects contained in the course 
         To define an item's width, instead of the width property
       - `flex: 0 1 auto;` | `<int> <int> <len>`  
         **Recommended** shorthand for flex-grow, -shrink, -basis
-      - `order: 0` | `integer`  
+      - 🦍`order: 0` | `integer`  
         Controls order of items. -1 makes item first, 1 makes it last.
 - **Grid**
