@@ -91,3 +91,18 @@ This repo contains my study notes and learning projects contained in the course 
   - normal flow: elements are laid out according to their order in the HTML code
   - absolute positioning: no impact on surrounding elements, might overlap them
   - the way to use: Add `position: absolute;` for the element and set its top/bottom/left/right (e.g., `top: 5px;`). The element would be put based on these attributes relatively to its closest parent element with `position: relative` specified.
+
+## Layouts
+
+- **Float**
+  - `float: left;` `float: right;`
+  - element is removed from the normal flow
+  - text and inline elements will wrap around the floated element
+  - the container will not adjust its height to the element
+    collapsing height
+    - clearfix hack
+      `.clearfix::after{content: ""; display: "block"; clear: both;}` Clearfix only works when the selected element is a block element. after pseudo-element only works when the content has been specified.
+    - alternative way
+      Add an empty block element as one of the children elements(e.g., `<div class="clear"></div>`). And then do `.clear {clear: both;}` in the corresponding CSS file.
+- **Flexbox**
+- **Grid**
