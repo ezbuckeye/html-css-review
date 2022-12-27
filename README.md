@@ -141,10 +141,12 @@ This repo contains my study notes and learning projects contained in the course 
     ![cssgrid-terms](image/cssgrid.png)
   - properties for
     - grid container
-      - `grid-template-rows: <track size>*`  
+      - 🦍`grid-template-rows: <track size>*`  
         `grid-template-columns: <track size>*`  
-        To establish the grid row and column tracks. One length unit for each track.  
-        Any unit can be used, new _fr_ fills unused space.
+        To establish the grid row and column tracks.
+        - **px**: only use the specified space(fixed)
+        - **fr**: similar to flex-grow, would use all the remaining space of the grid container. The higher the fr is for the column/row, the more space the column/row would fill(proportionally)
+        - **auto**: only use the minimum space of neccesity.
       - `row-gap: 0;` | `<length>`  
         `column-gap: 0;` | `<length>`  
         `gap: 0;` | `<length>`  
