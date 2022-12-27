@@ -144,8 +144,8 @@ This repo contains my study notes and learning projects contained in the course 
       - 🦍`grid-template-rows: <track size>*`  
         `grid-template-columns: <track size>*`  
         To establish the grid row and column tracks.
-        - **px**: only use the specified space(fixed)
-        - **fr**: similar to flex-grow, would use all the remaining space of the grid container. The higher the fr is for the column/row, the more space the column/row would fill(proportionally)
+        - **px**: only use the specified space.(fixed)
+        - **fr**: similar to flex-grow, would use all the remaining space of the grid container. The higher the fr is for the column/row, the more space the column/row would fill.(proportionally)
         - **auto**: only use the minimum space of neccesity.
       - `row-gap: 0;` | `<length>`  
         `column-gap: 0;` | `<length>`  
@@ -159,10 +159,13 @@ This repo contains my study notes and learning projects contained in the course 
         To align entire grid inside grid container.  
         Only applies if container is larger than the grid.
     - grid items
-      - `grid-column: <start line> / <end line>` | `span <number>`  
+      - 🦍`grid-column: <start line> / <end line>` | `span <number>`  
         `grid-row: <start line> / <end line>` | `span <number>`  
         To place a grid item into a specific cell, based on line numbers.  
-        _span_ keyword can be used to span an item across more cells.
+        _span_ keyword can be used to span an item across more cells.  
+        **examples:**
+        1. `grid-column: 1 / 3;` == `grid-column: 1 / span 2;`
+        2. `grid-column: 1 / 2;` == `grid-column: 1 / span 1;` == `grid-column: 1;`
       - `justify-self: stretch;` | `start` | `center` | `end`  
         `align-self: stretch;` | `start` | `center` | `end`  
         To overwrite justify-items/align-items for single items.
