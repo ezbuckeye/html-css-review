@@ -147,14 +147,14 @@ This repo contains my study notes and learning projects contained in the course 
         - **px**: only use the specified space.(fixed)
         - **fr**: similar to flex-grow, would use all the remaining space of the grid container. The higher the fr is for the column/row, the more space the column/row would fill.(proportionally)
         - **auto**: only use the minimum space of neccesity.
-      - `row-gap: 0;` | `<length>`  
+      - 🦍`row-gap: 0;` | `<length>`  
         `column-gap: 0;` | `<length>`  
         `gap: 0;` | `<length>`  
         To create empty space between tracks.
-      - `justify-items: stretch;` | `start` | `center` | `end`  
+      - 🦍`justify-items: stretch;` | `start` | `center` | `end`  
         `align-items: stretch;` | `start` | `center` | `end`  
         To align items inside rows/columns (horizontally / vertically)
-      - `justify-content: start;` | `center` | `end` | `...`  
+      - 🦍`justify-content: start;` | `center` | `end` | `...`  
         `align-content: start;` | `center` | `end` | `...`  
         To align entire grid inside grid container.  
         Only applies if container is larger than the grid.
@@ -166,6 +166,6 @@ This repo contains my study notes and learning projects contained in the course 
         **examples:**
         1. `grid-column: 1 / 3;` == `grid-column: 1 / span 2;`
         2. `grid-column: 1 / 2;` == `grid-column: 1 / span 1;` == `grid-column: 1;`
-      - `justify-self: stretch;` | `start` | `center` | `end`  
+      - 🦍`justify-self: stretch;` | `start` | `center` | `end`  
         `align-self: stretch;` | `start` | `center` | `end`  
         To overwrite justify-items/align-items for single items.
