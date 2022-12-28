@@ -181,3 +181,33 @@ This repo contains my study notes and learning projects contained in the course 
         To overwrite justify-items/align-items for single items.
 
 ## Web Design Rules and Framework
+
+- **Rules #1: Typography**
+  - serif vs sans-serif  
+    ![serif_vs_sans-serif](image/serif_sansserif.png)
+    - serif
+      - traditional / classic look and feel
+      - conveys trustworthiness
+      - good for long text
+    - sans-serif
+      - modern look and feel
+      - clean and simple
+      - easier to fit the vibe
+  - guidelines
+    - typface
+      - It's okay to use just one typeface per page! If you want more, limit to 2 typefaces.
+    - font-size & font-weight
+      - For "normal" text, use a font size between 16px and 32px for "normal" text.  
+        for long text(like a blog post), try a size of 20px or even bigger
+      - For headlines, you can go really big(50px+) and bold(600+), depending on personality
+      - For any text, don't use a font weight under 400(regular)
+    - reading experience
+      - Use less than 75 characters per line
+      - line-height
+        - For normal-sized text, use a line height between 1.5 and 2.
+        - For big text, go below 1.5
+        - _The smaller or longer the text, the larger the line height needs to be_
+      - letter-spacing  
+        decrease letter spacing in headlines, if it looks unnatural
+      - Experiment with all caps for short titles.  
+        Make them small and bold and increase letter-spacing.
