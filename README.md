@@ -10,7 +10,17 @@ This repo contains my study notes and learning projects contained in the course 
 
 - We could add `target="\_blank"` as an attribute-value pair inside the `<a>` label so that the link would be opened in new tab.
 
-- `<header>`(header of the html doc/smaller units), `<nav>`(for navigation links), `<article>`, `<footer>`(e.g., copyright), `<aside>`(for secondary info) are container labels for structuring html documents. They would be helpful for semantics HTML as well as CSS styling.
+- `<header>`(header of the html doc/smaller units),  
+  `<nav>`(for navigation links),  
+  `<article>`,  
+  `<section>`,  
+  `<aside>`(for secondary info),  
+  `<blockquote>`,  
+  `<figure>`,  
+  `<footer>`(e.g., copyright),  
+  are container labels for structuring html documents. They would be helpful for semantics HTML as well as CSS styling.
+
+- `<div>` and `<span>` labels both are non-semantic html. The former is a _block_ label, while the latter is a _inline_ label.
 
 - useful VScode extension: auto rename tag(automatically change the closing tags when the openning tags were changed), prettier(formatter), color hightlight(for css), image preview(`<img>`), live server
 
@@ -169,3 +179,5 @@ This repo contains my study notes and learning projects contained in the course 
       - 🦍`justify-self: stretch;` | `start` | `center` | `end`  
         `align-self: stretch;` | `start` | `center` | `end`  
         To overwrite justify-items/align-items for single items.
+
+## Web Design Rules and Framework
