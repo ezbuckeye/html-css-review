@@ -216,3 +216,20 @@ This repo contains my study notes and learning projects contained in the course 
         For headlines, decrease letter spacing if it looks unnatural.
       - Experiment with all caps for short titles.  
         Make them small and bold and increase letter-spacing.
+- **Rules #2: Colors**
+  - tool box
+    - [Open Color]()
+    - [tailwindcss]()
+    - [Flat UI Colors]()
+  - guidelines
+    - color types
+      - You need at least two types of colors in your color palette: a main color and a grey color  
+        main color: draw attention to the most important elements on the page
+        grey color: background & texts
+      - With more experience, you can add more colors: accent colors(use a tool) => could use tools like [palleton]() or [coolors]()  
+        Use accent colors to make entire components or sections stand out
+      - For diversity, create lighter and darker "versions" (tints and shades)
+        => could use tools like [Tine & Shade Generator]()
+    - the relationship between colors
+      - On dark colored backgrounds, try to use a tint of the background for text
+      - Text should usually not be completely balck.
