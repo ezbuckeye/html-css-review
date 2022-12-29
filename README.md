@@ -251,12 +251,15 @@ This repo contains my study notes and learning projects contained in the course 
 - **Rule #4: Icons**
   - toolbox
     - [Phosphor icons]()
+    - [heroicons]()
     - [ionicons]()
     - [ICONS8]()
   - guidelines
     - Use SVG icons or icon fonts(vector-based).  
       Don't use bitmap image foramts(.jpg / .png)
-    - Use icons to provide visual assistance to text
+    - Use icons
+      - to provide visual assistance to text
       - for product feature blocks
       - associated with actions
       - as bullet points
+  - copy the `<svg>` label from the tool website, color them with `stroke` property / `fill` property.
