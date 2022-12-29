@@ -233,3 +233,30 @@ This repo contains my study notes and learning projects contained in the course 
     - the relationship between colors
       - On dark colored backgrounds, try to use a tint of the background for text
       - Text should usually not be completely balck.
+- **Rule #3: Images and Illustrations**
+  - types  
+    product photos, storytelling photos, illustrations, patterns
+  - toolbox
+    - [Unsplash]()
+    - [Pexels]()
+    - [DrawKit]()
+    - [unDraw]()
+  - guidelines
+    - handling text on images
+      - Method #1: Darker or brighter image(completely/partially, using a gradient)
+      - Method #2: Position text into neutral image area
+      - Method #3: Put text in a box
+    - technical details
+      - compress images for lower file size with [Squoosh]()
+- **Rule #4: Icons**
+  - toolbox
+    - [Phosphor icons]()
+    - [ionicons]()
+    - [ICONS8]()
+  - guidelines
+    - Use SVG icons or icon fonts(vector-based).  
+      Don't use bitmap image foramts(.jpg / .png)
+    - Use icons to provide visual assistance to text
+      - for product feature blocks
+      - associated with actions
+      - as bullet points
