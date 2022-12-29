@@ -218,7 +218,7 @@ This repo contains my study notes and learning projects contained in the course 
         Make them small and bold and increase letter-spacing.
 - **Rules #2: Colors**
   - tool box
-    - [Open Color]()
+    - [Open Color](https://yeun.github.io/open-color/)
     - [tailwindcss]()
     - [Flat UI Colors]()
   - guidelines
