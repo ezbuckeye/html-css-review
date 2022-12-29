@@ -246,6 +246,7 @@ This repo contains my study notes and learning projects contained in the course 
       - Method #1: Darker or brighter image(completely/partially, using a gradient)
       - Method #2: Position text into neutral image area
       - Method #3: Put text in a box
+      - Method #4: Add showdows to text
     - technical details
       - compress images for lower file size with [Squoosh]()
 - **Rule #4: Icons**
@@ -263,3 +264,14 @@ This repo contains my study notes and learning projects contained in the course 
       - associated with actions
       - as bullet points
   - copy the `<svg>` label from the tool website, color them with `stroke` property / `fill` property.
+- **Rule #5: Shadows**
+  - add shadow to text  
+    `text-shadow: <horizontal-length> <vertical-length> <blur> <color>`  
+    e.g., `text-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);`
+  - add shadow to block  
+    `box-shadow: <horizontal-length> <vertical-length> <blur> <spread> <color>`  
+    e.g., `box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.07);`
+  - guidelines
+    - small/medium-sized shadows => cards, sections, images
+    - large shadows => modular, hover-menu
+    - changing shadows on mouse interaction (click and hover)
