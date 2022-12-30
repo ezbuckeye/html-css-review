@@ -182,6 +182,11 @@ This repo contains my study notes and learning projects contained in the course 
 
 ## Web Design Rules and Framework
 
+Font-size System  
+Font-weight System  
+Color System
+Whitespace System
+
 - **Rules #1: Typography**
   - tool box
     - [Google Fonts](https://fonts.google.com)  
@@ -284,3 +289,16 @@ This repo contains my study notes and learning projects contained in the course 
       - buttons, icons
       - images, cards, standout sections
       - modular, hover-menu
+- **Rule #7: Whitespace**  
+  implies invisible relationships between the elements of layout
+  - guidelines
+    - Use tons of whitespace between sections  
+      Use a lot of whitespace between groups of elements  
+      Use whitespace between elements
+    - **Law of Proximity**: The more some elements belong together, the closer they should be
+- **Rule #8: Visual Hierachy**
+  - guidelines
+    - Position important elements closer to the top of the page, where they get more attention.
+    - Use images mindfully, as they draw a lot of attention.(larger images get more attention)
+    - For text elements, use font size, font weight, color, and whitespace to convey importance.
+    - For important component, use background color, shadow, or border to ephasize.
