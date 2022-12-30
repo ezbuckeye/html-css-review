@@ -302,3 +302,16 @@ Whitespace System
     - Use images mindfully, as they draw a lot of attention.(larger images get more attention)
     - For text elements, use font size, font weight, color, and whitespace to convey importance.
     - For important component, use background color, shadow, or border to ephasize.
+- **Rule #9: User Experience(UX)**
+  - guidelines
+    - Use patterns that users konw
+    - Make your CALL-TO-ACTION the most prominent element, and make the text descriptive
+- **The Website-Personalities-Framework**
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
