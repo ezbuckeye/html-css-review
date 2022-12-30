@@ -272,6 +272,15 @@ This repo contains my study notes and learning projects contained in the course 
     `box-shadow: <horizontal-length> <vertical-length> <blur> <spread> <color>`  
     e.g., `box-shadow: 0 20px 30px 0px rgba(0, 0, 0, 0.07);`
   - guidelines
-    - small/medium-sized shadows => cards, sections, images
+    - small/medium-sized shadows => images, cards, sections
     - large shadows => modular, hover-menu
     - changing shadows on mouse interaction (click and hover)
+- **Rule #6: Border-Radius**
+  - `border-radius: 50%;` (maximum)  
+    `border-radius: 16px;` (maximum if the min(w, h) is 32px)
+  - `border-bottom-left-radius: 10px;`
+  - guidlines
+    - could use border-radius on
+      - buttons, icons
+      - images, cards, standout sections
+      - modular, hover-menu
