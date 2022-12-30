@@ -308,10 +308,10 @@ Whitespace System
     - Make your CALL-TO-ACTION the most prominent element, and make the text descriptive
 - **The Website-Personalities-Framework**
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
+1. Serious/Elegant
+2. Minimalist
+3. Plain/Neutral
+4. Bold/Confident
+5. Calm/Peaceful
+6. Startup/Upbeat
+7. Playful/Fun
