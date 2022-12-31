@@ -182,10 +182,19 @@ This repo contains my study notes and learning projects contained in the course 
 
 ## Web Design Rules and Framework
 
-Font-size System  
-Font-weight System  
-Color System
-Whitespace System
+- Inspirational Website
+
+  - [land-book](https://land-book.com/)
+  - [onepagelove](https://onepagelove.com/)
+  - [awwwards](https://www.awwwards.com/)
+  - [screenlane](https://screenlane.com/) => for components
+
+- Helpful Systems
+
+  - Font-size System
+  - Font-weight System
+  - Color System
+  - Whitespace System
 
 - **Rules #1: Typography**
   - tool box
@@ -306,12 +315,3 @@ Whitespace System
   - guidelines
     - Use patterns that users konw
     - Make your CALL-TO-ACTION the most prominent element, and make the text descriptive
-- **The Website-Personalities-Framework**
-
-1. Serious/Elegant
-2. Minimalist
-3. Plain/Neutral
-4. Bold/Confident
-5. Calm/Peaceful
-6. Startup/Upbeat
-7. Playful/Fun
