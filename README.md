@@ -331,7 +331,7 @@ This repo contains my study notes and learning projects contained in the course 
   - Carousel
   - Table
     - _HTML_  
-    <code>
+    `
       <table>
         <tr>
           <th>Chair</th>
@@ -349,7 +349,7 @@ This repo contains my study notes and learning projects contained in the course 
           <td>200 cm</td>
         </tr>
       </table>
-    </code>
+    `</code>`
     - _CSS_
       - border related
         - `border-collapse: collapse;`  
