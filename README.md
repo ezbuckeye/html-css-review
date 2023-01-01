@@ -330,8 +330,8 @@ This repo contains my study notes and learning projects contained in the course 
   - Accordion
   - Carousel
   - Table
-    - _HTML_  
-    `
+    - _HTML_
+    ```
       <table>
         <tr>
           <th>Chair</th>
@@ -349,7 +349,7 @@ This repo contains my study notes and learning projects contained in the course 
           <td>200 cm</td>
         </tr>
       </table>
-    `</code>`
+    ```
     - _CSS_
       - border related
         - `border-collapse: collapse;`  
@@ -359,7 +359,7 @@ This repo contains my study notes and learning projects contained in the course 
         - `border: 1px solid #000;`  
           could be applied on tables/cells
         - Utilizing pseudo-class  
-          `tbody tr:nth-child(odd){background-color: #f8f9fa;`
+          `tbody tr:nth-child(odd){background-color: #f8f9fa;`  
           `tbody tr:nth-child(even){background-color: #e9ecef;}`
 
 - **Rule #10: Part2: Layout Patterns**
