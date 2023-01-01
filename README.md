@@ -315,3 +315,11 @@ This repo contains my study notes and learning projects contained in the course 
   - guidelines
     - Use patterns that users konw
     - Make your CALL-TO-ACTION the most prominent element, and make the text descriptive
+
+## Components and Layout Patterns
+
+- **Rule #10: Part1: Elements and Components**
+
+- Accordion
+
+- **Rule #10: Part2: Layout Patterns**
