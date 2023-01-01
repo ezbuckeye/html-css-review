@@ -67,6 +67,13 @@ This repo contains my study notes and learning projects contained in the course 
   - first line: `h3 + p::first-line {}`
   - create an element(inline) as the first(`before`)/last(`after`) child of the selected element`h2::after {content: "TOP";}`
 
+- **transform property**
+
+  - `transform: translate(-50%, -50%);`  
+    useful for aligning absolute positioned elements.
+  - `transform: scale(1.5);`  
+    useful for making images larger than its containers.
+
 - **CSS Theory1: conlicting selectors**
   - declarations marked `!important` > inline styles > ID selector > class/psudeo-class selector > element selector > universal selector
   - if there are multiple conflicts of the same level, the last selector in code will apply
