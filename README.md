@@ -12,6 +12,8 @@ This repo contains my study notes and learning projects contained in the course 
 
 - `<header>`(header of the html doc/smaller units),  
   `<nav>`(for navigation links),  
+  `<menu>`,  
+  `<main>`,  
   `<article>`,  
   `<section>`,  
   `<aside>`(for secondary info),  
@@ -371,7 +373,7 @@ This repo contains my study notes and learning projects contained in the course 
     - Navigation Bar
     - Hero Section
 
-      - view port height  
+      - viewport height  
         `height: 100vh;`
       - background-image (de-highlighted)
 
@@ -389,6 +391,7 @@ This repo contains my study notes and learning projects contained in the course 
     - Feature Rows
 
   - Layout Patterns
+
     - repeating boxes/cards
       - in Row
       - in Grid
@@ -400,3 +403,13 @@ This repo contains my study notes and learning projects contained in the course 
       - sidebar
       - multi-column / Magzine
       - asymmetry / experimental
+
+  - _take-aways from the example: a fake email application_
+    - in flexbox, if we want to push a flex-item all the way to the right, we could do
+      ```
+      flex-item:last-child{
+        margin-left: auto;
+      }
+      ```
+    - `overflow: scroll;`
+      defines how elements that don't fit into container appear
