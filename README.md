@@ -327,39 +327,76 @@ This repo contains my study notes and learning projects contained in the course 
 
 - **Rule #10: Part1: Elements and Components**
 
-  - Accordion
-  - Carousel
-  - Table
-    - _HTML_
-    ```
-      <table>
-        <tr>
-          <th>Chair</th>
-          <th>Chair A</th>
-          <th>Chair B</th>
-        </tr>
-        <tr>
-          <th>Width</th>
-          <td>80 cm</td>
-          <td>120 cm</td>
-        </tr>
-        <tr>
-          <th>Height</th>
-          <td>100 cm</td>
-          <td>200 cm</td>
-        </tr>
-      </table>
-    ```
-    - _CSS_
-      - border related
-        - `border-collapse: collapse;`  
-          (should be applied on tables)
-          1. when there is border, the border between cells & the border between cells&tables would be collapsed as one line
-          2. when there is no border, the "invisible" border between cells would disappear when filling them with background color
-        - `border: 1px solid #000;`  
-          could be applied on tables/cells
-        - Utilizing pseudo-class  
-          `tbody tr:nth-child(odd){background-color: #f8f9fa;`  
-          `tbody tr:nth-child(even){background-color: #e9ecef;}`
+  - Components
+    - Accordion
+    - Carousel
+    - Table
+      - _HTML_
+      ```
+        <table>
+          <tr>
+            <th>Chair</th>
+            <th>Chair A</th>
+            <th>Chair B</th>
+          </tr>
+          <tr>
+            <th>Width</th>
+            <td>80 cm</td>
+            <td>120 cm</td>
+          </tr>
+          <tr>
+            <th>Height</th>
+            <td>100 cm</td>
+            <td>200 cm</td>
+          </tr>
+        </table>
+      ```
+      - _CSS_
+        - border related
+          - `border-collapse: collapse;`  
+            (should be applied on tables)
+            1. when there is border, the border between cells & the border between cells&tables would be collapsed as one line
+            2. when there is no border, the "invisible" border between cells would disappear when filling them with background color
+          - `border: 1px solid #000;`  
+            could be applied on tables/cells
+          - Utilizing pseudo-class  
+            `tbody tr:nth-child(odd){background-color: #f8f9fa;`  
+            `tbody tr:nth-child(even){background-color: #e9ecef;}`
+      - Pagination
 
 - **Rule #10: Part2: Layout Patterns**
+
+  - Section Components
+
+    - Navigation Bar
+    - Hero Section
+
+      - view port height  
+        `height: 100vh;`
+      - background-image (de-highlighted)
+
+        ```
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url(hero.jpg);
+        background-size: cover;
+        ```
+
+    - Footer Section
+    - Call-To-Action Section
+    - Feature Rows
+
+  - Layout Patterns
+    - repeating boxes/cards
+      - in Row
+      - in Grid
+    - repeating feature rows
+      - Z-Pattern
+      - F-Pattern
+    - overall content
+      - single column
+      - sidebar
+      - multi-column / Magzine
+      - asymmetry / experimental
