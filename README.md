@@ -411,5 +411,5 @@ This repo contains my study notes and learning projects contained in the course 
         margin-left: auto;
       }
       ```
-    - `overflow: scroll;`
+    - `overflow: scroll;`  
       defines how elements that don't fit into container appear
